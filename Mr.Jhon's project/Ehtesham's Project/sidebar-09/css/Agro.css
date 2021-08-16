@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    font-family: Roboto sans-serif;
+}
+body{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+        .foot{
+           padding-left: 30px!important;
+        }
+  
+  
+}
+.header{
+    margin-top: 16px!important;
+    
+}
+
+/* .img1{
+    width: 100px!important;
+} */
+.text{
+    padding: 50px 0;
+}
+p{
+    font-size: 15px;
+}
+h3{
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel-item h1{
+    background: url(../images/Agro-main.png);
+    height:400px;
+	width:100%;
+    color: white;
+    padding: 14% 0;
+    text-transform: uppercase;
+    font-size: 77px;
+	background-position:center;
+	background-size:cover;	
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav a{
+	color:rgba(255,255,255,1);
+	text-decoration:none;
+	
+	
+}
+nav a:hover{
+	color:rgba(255,0,0,1);
+	
+	
+	
+}
+.btn-danger{
+    margin-bottom: 10px!important;
+}
+
+.row h5{
+    color: rgba(253, 224, 125, 1);;
+}
+.row a{
+    color: white;
+    text-decoration: none;
+}
+.fooimg{
+    background-image: url(../images/1.png)!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+}
+
+.icondown{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+.icondown p{
+    color: white;
+    margin-top: 25px;
+}
+
+.nav li a{
+	color:black;
+	text-decoration:none;
+	
+}
+.nav li a:hover{
+	color:rgba(255,0,0,1);
+	
+}

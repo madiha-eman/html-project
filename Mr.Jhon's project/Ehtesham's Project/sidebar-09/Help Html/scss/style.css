@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.bnnr{
+	height:300px;
+	width:100%;
+	background-position:center;
+background-image:url(../../images/bnnrpage.jpg);
+
+}
+.container{
+	width:80%;
+	alignment-adjust:central;
+	
+	
+}
+
+nav a:hover{
+	color:rgba(255,0,0,1);
+	text-decoration: none;
+	/* [disabled]padding:20px; */
+}
+.card, .card-header {
+  padding: 0 !important;
+  margin-bottom: 20px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.card {
+  border: 1px solid #000 !important;
+  -webkit-box-shadow: 0 2px 25px 0px rgba(110, 130, 208, 0.18);
+          box-shadow: 0 2px 25px 0px rgba(110, 130, 208, 0.18);
+  border-radius: 10px !important;
+}
+
+.btn-link {
+  width: 100%;
+  height: 60px;
+  color: #000 !important;
+  font-weight: bold;
+  text-align: left !important;
+  text-decoration: none;
+}
+
+.btn-link::after {
+  content: '\2212';
+  width: 35px;
+  font-size: 27px;
+  position: absolute;
+  background: #e8eeff;
+  text-align: center;
+  top: 10px;
+  right: 15px;
+  border-radius: 10px;
+}
+
+.btn-link.collapsed::after {
+  content: '\002B';
+}
+
+.card-body {
+  background: #e8eeff;
+}
+
+.btn-link::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  z-index: 1;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 46px;
+  left: 30px;
+}
+/*# sourceMappingURL=style.css.map */

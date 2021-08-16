@@ -1,0 +1,87 @@
+nav a{
+	color:rgba(255,255,255,1);
+	text-decoration:none;
+}
+
+nav a:hover{
+	color:rgba(255,0,0,1);
+	text-decoration:none;
+	
+	
+}
+.fooimg{
+  background-image: url(../images/1.png)!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: contain!important;
+}
+@media only screen and (max-width: 768px) {
+  .foot{
+     padding-left: 30px!important;
+  }
+ .form1{
+  width: 100%!important;
+  padding: 5px!important;
+  margin-left: 10px!important;
+ }
+ .fom0{
+   width: 100% auto;
+  
+ }
+ .form-control{
+   width: 80%!important;
+   
+ }
+ .from1-main{
+   width: 100%!important;
+   text-align: center!important;
+   
+ }
+ .card1{
+   width: 100%!important;
+ }
+ .card-img1{
+   width: 30px!important;
+   height: 50px!important;
+ }
+ .card-font1{
+  font-size: 10px!important;
+  margin-right: 0!important;
+}
+.card-btn1{
+  margin-left: 2px!important;
+}
+/* .btn-parts{
+ width: 20px!important;
+} */
+}
+.header{
+margin-top: 16px!important;
+
+}
+.form-control {
+  margin-left: 4px!important;
+}
+
+
+   /*-------------------------- footer--------------------- */
+
+
+
+   .row h5{
+    color: rgba(253, 224, 125, 1);;
+}
+.row a{
+    color: white;
+    text-decoration: none;
+}
+
+.icondown{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+.icondown p{
+    color: white;
+    margin-top: 25px; 
+}
