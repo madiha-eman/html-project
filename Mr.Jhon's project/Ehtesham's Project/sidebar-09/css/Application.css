@@ -19,7 +19,16 @@ sd
 	
 	
 }
-
+@media only screen and (max-width: 768px) {
+   .app-btn{
+     margin-left: 30px!important;
+     margin-top:5px!important;
+   }
+ 
+}
+.app-font{
+  font-size: 12px;
+}
 
 .fooimg{
   background-image: url(../images/1.png)!important;
